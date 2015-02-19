@@ -63,8 +63,8 @@ text = text[len(text)-1]
 
 length = random.randint(100, 140)
 
-auth = tweepy.OAuthHandler('UCVRDEHfpj5VWfC8U63zXbyf5', 'lLnj7CRYDn7IYw3IpBdB79YU7qP5OnAj45QLMfo6lkomb2laHu')
-auth.set_access_token('2592040632-DZj6re7wRckXHr86HMCBgsUcdzqP5W2goQSRCR1', 'dpNvygkjBLddIUtQ5ftEG1WZiXMFporiGAvavNoHUxHP3')
+auth = tweepy.OAuthHandler('OAUTH_TOKEN', 'API_KEY')
+auth.set_access_token('ACCESS_TOKEN', 'SESSION_KEY')
 
 api = tweepy.API(auth)
 
